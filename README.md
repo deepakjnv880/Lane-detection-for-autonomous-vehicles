@@ -40,7 +40,7 @@ If first mask don't work then i am using 2nd mask and so on. In worst case, i wi
 <!--![output](/images/output.jpg)-->
 <img src="/images/output.jpg" width="800" height="600">
 
-# Other Results -
+# Some other Results -
 
 <img src="/images/output4.jpg" width="800" height="600">
 <img src="/images/output2.jpg" width="800" height="600">
@@ -49,7 +49,7 @@ If first mask don't work then i am using 2nd mask and so on. In worst case, i wi
 
 
 # Conclusion -
-I implimented lane using image processing techniques. Further improvement in this project may be find distance of nearest vehicle in the lane detected, so that accidents can be avoided.
+I implimented lane detection using image processing techniques. Further improvement in this project may be find distance of nearest vehicle in the lane detected, so that accidents can be avoided.
 
-# Refrences -
+# References used -
 [Lane Detection for Autonomous Vehicles using OpenCV Library](https://www.irjet.net/archives/V6/i1/IRJET-V6I1245.pdf)

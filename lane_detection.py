@@ -164,8 +164,8 @@ if __name__ == '__main__':
     # cv2.imwrite("canny.jpg",canny_edges)
     # cv2.imwrite("mask.jpg",mask)
     # cv2.imwrite("Masked_canny.jpg",copy)
-    # cv2.imwrite("output.jpg",output_img)
-    
+    cv2.imwrite("output.jpg",output_img)
+
     # cv2.imshow("Lane detected",output_img)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
