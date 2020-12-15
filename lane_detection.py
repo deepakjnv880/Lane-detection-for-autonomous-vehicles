@@ -97,7 +97,6 @@ if __name__ == '__main__':
     img = cv2.imread(image_name)
     # img=cv2.resize(img, (800, 600))
     canny_edges = canny_edge_detector(img)
-    # cv2.imwrite("canny.jpg",canny_edges)
 
     h,w = canny_edges.shape[:2]
 
@@ -162,10 +161,12 @@ if __name__ == '__main__':
 
     print("\n")
     output_img = draw_lane_on_image(img, extrapolated_lines, 5)
-    cv2.imwrite("mask.jpg",mask)
-    cv2.imwrite("Masked_canny.jpg",copy)
-    cv2.imwrite("output.jpg",output_img)
-    cv2.imshow("Lane detected",output_img)
+    # cv2.imwrite("canny.jpg",canny_edges)
+    # cv2.imwrite("mask.jpg",mask)
+    # cv2.imwrite("Masked_canny.jpg",copy)
+    # cv2.imwrite("output.jpg",output_img)
+    
+    # cv2.imshow("Lane detected",output_img)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
     print('Output has also been stored in `output.jpg` image file.\n')
