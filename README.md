@@ -2,12 +2,12 @@
 Lane detection of autonomous vehicles
 
 # Installation required -
-    sudo apt-get install python3-pip<br/>
-    pip3 install opencv-python<br/>
+    sudo apt-get install python3-pip
+    pip3 install opencv-python
     pip3 install scipy
 
 # How to run -
-    python3 lane_detection.py --input_image <image_path><br/>
+    python3 lane_detection.py --input_image <image_path>
 Also one can find other command line arguments using -
 
     python3 lane_detection.py --help
